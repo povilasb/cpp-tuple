@@ -12,7 +12,8 @@ set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g -ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -fstack-protector")
 set(CMAKE_CXX_FLAGS "-std=c++98 -Wall -Wextra -Werror -pedantic")
 
-set(TUPLE_INCLUDE_DIRS "${CMAKE_CURRENT_SOURCE_DIR}/include")
+
+set(TUPLE_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${TUPLE_INCLUDE_DIRS})
 
 
